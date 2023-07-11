@@ -1,0 +1,7 @@
+/* header.component.css */
+.header-bg {
+    background-image: url('/assets/img/black.jpg'); /* Use your desired image URL */
+    background-size: cover;
+    background-position: center bottom;
+  }
+  

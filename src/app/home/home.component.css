@@ -1,0 +1,94 @@
+.hero {
+  background-image: url('/assets/img/3.png') !important;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.hero-body {
+  position: relative;
+}
+
+.button-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(10%, -300%);
+}
+
+.custom-button {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  margin: 30px;
+  font-size: 15px; /* Adjust font size as needed */
+  font-weight: bold; /* Adjust font weight as needed */
+  text-transform: uppercase; /* Convert text to uppercase */
+  text-decoration: none; /* Remove underline if it's a link */
+}
+
+.blackBackground {
+  background-color:black;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.blackBackground-body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+.andronic-text {
+  font-family: "Rumblesport Athletic";
+  font-size: 30px;
+  /* font-weight: bold; */
+  position: absolute;
+  padding: 80px 30px;
+  /* top: 20px; */
+  left: 80px;
+  /* margin: 50px; */
+}
+
+.andronic-image {
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  width: 200px; /* Set the desired width */
+  height: auto; /* Let the height adjust proportionally */
+  /* Add any additional styles as needed */
+}
+
+
+
+
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+  .button-container {
+    position: static;
+    /* transform: none; */
+    display: flex;
+    justify-content: end;
+    /* transform: translate(0%, -300%); */
+  }
+
+  .custom-button {
+    background-color: black;
+  color: white;
+  width: 150px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  margin: 30px;
+  font-size: 10px; /* Adjust font size as needed */
+  font-weight: bold; /* Adjust font weight as needed */
+  text-transform: uppercase; /* Convert text to uppercase */
+  text-decoration: none; /* Remove underline if it's a link */
+  }
+}

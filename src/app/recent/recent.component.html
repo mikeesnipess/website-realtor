@@ -1,0 +1,41 @@
+<!-- <div class="image-container">
+  <button class="button left-button" (click)="previousImage()"><i class="fas fa-arrow-left"></i></button>
+  <div class="image-wrapper">
+    <img [src]="currentImageUrl" alt="Recent Image" title="Recent Image" width="400px">
+    <input type="file" id="img" (change)="onSelect($event, 'currentImageUrl')">
+  </div>
+  <button class="button right-button" (click)="nextImage()"><i class="fas fa-arrow-right"></i></button>
+</div> -->
+
+
+<div class="slider">
+  <div class="slide">
+    <input type="radio" name="radio-btn" id="radio1" (change)="updateImage('assets/img/3.png')">
+    <input type="radio" name="radio-btn" id="radio2" (change)="updateImage('assets/img/ANDRONIC.png')">
+    <input type="radio" name="radio-btn" id="radio3" (change)="updateImage('assets/img/headers.jpg')">
+    <input type="radio" name="radio-btn" id="radio4" (change)="updateImage('assets/img/andronicLogo.png')">
+
+    <div class="st">
+      <img src="assets/img/3.png" alt="">
+    </div>
+
+    <div class="st">
+      <img src="assets/img/ANDRONIC.png" alt="">
+    </div>
+
+    <div class="st">
+      <img src="assets/img/headers.jpg" alt="">
+    </div>
+
+    <div class="st">
+      <img src="assets/img/andronicLogo.png" alt="">
+    </div>
+  </div>
+
+  <div class="nav-auto">
+    <div class="a-b1"></div>
+    <div class="a-b2"></div>
+    <div class="a-b3"></div>
+    <div class="a-b4"></div>
+  </div>
+</div>
